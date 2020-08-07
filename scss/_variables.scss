@@ -1,0 +1,83 @@
+// Mixins
+@mixin for-phone {
+	@media (min-width: 320px) and (max-width: 480px) {
+		@content;
+	}
+}
+@mixin for-tablet-portrait-up {
+	@media (min-width: 600px) {
+		@content;
+	}
+}
+@mixin for-tablet-landscape-up {
+	@media (min-width: 900px) {
+		@content;
+	}
+}
+@mixin for-desktop-up {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}
+@mixin for-big-desktop-up {
+	@media (min-width: 1800px) {
+		@content;
+	}
+}
+
+@mixin linearGradient($top, $bottom) {
+	background: $top; /* Old browsers */
+	background: -moz-linear-gradient(top, $top 0%, $bottom 100%); /* FF3.6+ */
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0%, $top),
+		color-stop(100%, $bottom)
+	); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, $top 0%, $bottom 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, $top 0%, $bottom 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, $top 0%, $bottom 100%); /* IE10+ */
+	background: linear-gradient(to bottom, $top 0%, $bottom 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(
+			startColorstr='#ffffff',
+			endColorstr='#000000',
+			GradientType=0
+		); /* IE6-9 */
+}
+
+//Variables
+
+// Color overrides
+
+// Set primary color to orange
+
+$primary: #a119bb !default;
+
+$secondary: #c024cd !default;
+
+$third: #d02ad7;
+
+$fouth: #ffffff;
+
+$badges: #383838;
+
+$gris: #eeeeee;
+
+$bg_shrink: #f8faff;
+
+// Font overrides
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+//$font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-sans-serif: 'Montserrat', sans-serif !default;
+
+//$font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-serif: "Monserrat", serif !default;
+
+$font-family-base: $font-family-serif !default;
+
+$headings-font-family: $font-family-sans-serif !default;
+
+// Custom variables
+$navbar-height: 72px;

@@ -1,0 +1,25 @@
+Array
+(
+    [event] => oxxo
+    [status] => paid
+    [auth_code] => 00000000000000000000000000000000000000000000000000
+    [reference] => 6-23-16
+    [id] => 8251292
+    [hash] => 490cd742450858bb04178fa2fd52cb09b72cdad30739cf3d7b5cd3491b929f5f
+    [total] => 100.00
+)
+Array
+(
+    [auth_code] => 00000000000000000000000000000000000000000000000000
+    [event] => oxxo
+    [hash] => 490cd742450858bb04178fa2fd52cb09b72cdad30739cf3d7b5cd3491b929f5f
+    [id] => 8251292
+    [reference] => 6-23-16
+    [status] => paid
+    [total] => 100.00
+    [proyectoID] => 6
+    [usuarioID] => 23
+    [recompensaID] => 16
+    [nombreAportador] => 23
+    [estatus] => 1
+)

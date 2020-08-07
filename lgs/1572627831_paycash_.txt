@@ -1,0 +1,10 @@
+Array
+(
+    [event] => oxxo
+    [status] => paid
+    [auth_code] => 21135218962019110300100000000000000000000000000000
+    [reference] => 6-7-16
+    [id] => 13521896
+    [hash] => ebb3a3f99742dfcc49580e87e8c3e466092be86c9e3ded0f4580fa3a5f62817e
+    [total] => 100.00
+)

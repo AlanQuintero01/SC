@@ -1,0 +1,9 @@
+Array
+(
+    [event] => oxxo
+    [status] => pending
+    [reference] => 6-23-16
+    [id] => 8251292
+    [hash] => 490cd742450858bb04178fa2fd52cb09b72cdad30739cf3d7b5cd3491b929f5f
+    [total] => 100.00
+)

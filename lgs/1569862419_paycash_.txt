@@ -1,0 +1,9 @@
+Array
+(
+    [event] => paychash
+    [status] => pending
+    [reference] => BANWIRE20190930115337
+    [id] => 8250058
+    [hash] => 7e8b89672be9e66d25d70ae042fa2e37706945f75ac4a4a44f59f14ed9c002f1
+    [total] => 100.00
+)
